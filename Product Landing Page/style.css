@@ -1,0 +1,147 @@
+body{
+  background-color:lightblue;
+}
+.logo{
+ width:60px;
+  height:50px;
+}
+#nav-bar {
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  @media (max-width: 568px) {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.nav-link {
+  margin: 23px;
+  padding: 0px;
+  font-size: 19px;
+  color: rgb(51,51,51);
+  @media (max-width: 568px) {
+    flex-direction: column;
+  }
+}
+ #email {
+    margin: 13px;
+    padding: 5px;
+    font-size: 19px;
+    background-color: rgb(243,112,32);
+    border: 2px solid rgb(51,51,51);
+    border-radius: 9px;
+    text-align:center;
+  @media (max-width: 568px) {
+    margin-top:320px;
+}
+}
+  #submit {
+    margin: 13px;
+    padding: 5px;
+    font-size: 19px;
+    background-color: rgb(243,112,32);
+    border: 2px solid rgb(51,51,51);
+    border-radius: 9px;
+  }
+  @media (max-width: 568px) {
+    margin-top:320px;
+}
+
+form{
+  text-align:center;
+  font-size:30px;
+}
+p{
+  text-align:center;
+  font-size:20px;
+  text-align:center;
+}
+  img{
+    width:200px;
+    height:200px;
+    border:3px solid black;
+  } 
+li{
+  text-align:left;
+}
+@media(max-width:568px){
+  flex-direction:column;
+}
+.container{
+  gride-row-gap:0px;
+}
+#pricing {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: calc(68% / 3);
+  margin: 10px;
+  border: 3px solid #000;
+  border-radius: 4px;
+}
+h2{
+  text-color:black;
+}
+footer{
+  text-align:right;
+  font-size:20px;
+}
+li{
+  display:inline;
+ text-align:center;
+}
+a{
+  text-decoration:none;
+  color:#000;
+}
+#pricing {
+  display: flex;
+  flex-direction: column;
+  margin-top: 71px;
+  justify-content: center;
+  text-align: center;
+  padding: 101px;
+}
+  img {
+    width: 250px;
+    height: 170px;
+    border: 3px solid black;
+  }
+  # dc shoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+    margin: 11px;
+    border: 7px solid;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+    margin: 11px;
+    border: 7px solid rgb(243,112,32);
+    border-radius: 9px;
+  }
+  .option {
+    font-size: 23px;
+    text-align: center;
+    padding: 7px;
+  }
+.btn {
+    padding: 13px;
+    width: 97px;
+  }

@@ -1,0 +1,41 @@
+body{
+  margin:60px;
+  background-color:lightgray;
+}
+h1{
+  text-align:center;
+  font-size:60px;
+}
+h2{
+  text-align:center;
+}
+.img-container{
+  border-radius:20px;
+  background-color: white;
+    text-align: center;
+}
+img{
+  border-radius:20px;
+  width:800px;
+  height:500px;
+  text-align:center;
+}
+.img-caption-container{
+  background-color: white;
+}
+.tribute-content{
+  border-radius:20px;
+  background-color:gray;
+}
+h4{
+  font-size:30px;
+}
+h5{
+ font-size:30px;
+}
+h6{
+  font-size:30px;
+}
+h7{
+  font-size:20px;
+}

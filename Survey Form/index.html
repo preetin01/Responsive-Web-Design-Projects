@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Build a Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+ <h1 id="title"><u>Hackerrank Survey Form</u></h1>
+  <p id="description" class="title-text">Let us know how can we improve the Hackerrank.</p>
+  <main>
+  <form id="survey-form">
+ <label for="name" id="name-label">Name</label>      
+    <input id="name" type="text" placeholder="enter  your name">
+    <label for="email" id="email-label">Email</label>
+    <input id="email" type="text" placeholder="enter your email">
+    <label for="Contact No" id="contact No-label">Contact No</label>
+    <input id="contact no" type="number" placeholder="enter your contact no.">
+    <label for="dropdown">Which area describe you best?</label>
+    <select id="dropdown">
+      <option value=""></option>
+      <option value="student">student</option>
+      <option value="teacher">teacher</option>
+      <option value="professional">professional</option>
+      <option value="other">other</option>
+    </select>
+    <label for="recommendation">Would you recommend Hackerrank to a friend?</label>
+      <label for="recommend-1"><input type="radio" id="recommend-1" name="recommend">
+        Definitely</input></label>
+    <label for="recommend-2"><input type="radio" id="recommend-2" name="recommend">Yes</input></label>
+  <label for="recommend-3"><input type="radio" id="recommend-3" name="recommend">No</input></label>
+  <label for="likethemost">What do you like the most in Hackerrank?</label>
+  <select id="likethemost">
+    <option value="">
+    <option value="Challenges">Challenges</option>
+    <option value="projects">Projects</option>
+    <option value="Community">Community</option>
+    <option value="Open source">Open Source</option>
+  </select>
+  <label>Language that you know</label>
+  <label for="inp-1">
+    <input type="checkbox" value="C">C</input></label>
+<label for="inp-2">
+<input type="checkbox" value="C++">C++</input></label>
+<label for="inp-3">
+  <input type="checkbox" value="C#">C#</input></label>
+<label for="inp-4">
+  <input type="checkbox" value="java">java</input></label>
+<label for="inp-5">
+  <input type="checkbox" value="python">python</input></label>
+<label for="inp-6">
+ <input type="checkbox" value="javascript">javascript</input></label>
+<label for="comment">Any comments or suggestion</label>
+<textarea name="comment" id="comment" placeholder="Enter your comment"></textarea>
+</div>
+<button type="submit" value="submit">Submit</button>
+</main>
+</form>
+     </body>
+</html>
